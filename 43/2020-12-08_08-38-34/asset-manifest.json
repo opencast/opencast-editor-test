@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/43/2020-12-08_08-38-34/static/css/main.5d6c58c4.chunk.css",
+    "main.js": "/43/2020-12-08_08-38-34/static/js/main.d1aa39e0.chunk.js",
+    "main.js.map": "/43/2020-12-08_08-38-34/static/js/main.d1aa39e0.chunk.js.map",
+    "runtime-main.js": "/43/2020-12-08_08-38-34/static/js/runtime-main.4f5ae887.js",
+    "runtime-main.js.map": "/43/2020-12-08_08-38-34/static/js/runtime-main.4f5ae887.js.map",
+    "static/js/2.c58f1ed3.chunk.js": "/43/2020-12-08_08-38-34/static/js/2.c58f1ed3.chunk.js",
+    "static/js/2.c58f1ed3.chunk.js.map": "/43/2020-12-08_08-38-34/static/js/2.c58f1ed3.chunk.js.map",
+    "static/js/3.70a19057.chunk.js": "/43/2020-12-08_08-38-34/static/js/3.70a19057.chunk.js",
+    "static/js/3.70a19057.chunk.js.map": "/43/2020-12-08_08-38-34/static/js/3.70a19057.chunk.js.map",
+    "index.html": "/43/2020-12-08_08-38-34/index.html",
+    "static/css/main.5d6c58c4.chunk.css.map": "/43/2020-12-08_08-38-34/static/css/main.5d6c58c4.chunk.css.map",
+    "static/js/2.c58f1ed3.chunk.js.LICENSE.txt": "/43/2020-12-08_08-38-34/static/js/2.c58f1ed3.chunk.js.LICENSE.txt",
+    "static/media/placeholder_waveform.d23b087b.png": "/43/2020-12-08_08-38-34/static/media/placeholder_waveform.d23b087b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f5ae887.js",
+    "static/js/2.c58f1ed3.chunk.js",
+    "static/css/main.5d6c58c4.chunk.css",
+    "static/js/main.d1aa39e0.chunk.js"
+  ]
+}
