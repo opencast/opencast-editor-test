@@ -1,0 +1,28 @@
+name: Cleanup Deployments
+
+# cleans up old deployments and only leaves the newest three from each PR.
+# Does not (yet) remove deployments after an PR was merged or closed.
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+
+jobs:
+  delete-old-deployments:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+
+    - name: Run cleanup script
+      run: ./.github/scripts/cleanup-deployments.sh
+      shell: bash
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        branch: gh-pages
+        commit_message: Cleanup and delete old deployments
