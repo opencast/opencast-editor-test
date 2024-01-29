@@ -1,0 +1,61 @@
+####
+# Opencast Stand-alone Video Editor
+##
+
+# This file contains configuration meant for development and demonstration.
+# New features should be enabled in here to make testing easier.
+
+# ⚠️  Please do not use this for production deployments.
+
+
+# Pick a default event identifier which should be on develop.opencast.org
+id = 'ID-dual-stream-demo'
+
+# Callback to develop.opencast.org
+allowedCallbackPrefixes = ["https://develop.opencast.org"]
+callbackUrl = "https://develop.opencast.org"
+callbackSystem = "OPENCAST"
+
+[opencast]
+# Connect to develop.opencast.org and use the default demo user
+url = 'https://develop.opencast.org'
+name = "admin"
+password = "opencast"
+
+# For visualization purposes, the editor generates a waveform image for the
+# cutting view. Per default the image is generated from one of the videos.
+# For large videos, this can take a lot of time, bandwidth and in case of very
+# large videos even cause the editor to crash.
+# This setting allows you to specify an Opencast flavor from which to generate
+# the waveform image instead. For example, your workflow in Opencast could
+# include an operation that generates a small audio file from one of the videos
+# and adds that audio file to the internal publication.
+# Example:
+[opencast.audioFileFlavor]
+"type" = "presenter"
+"subtype" = "audio"
+
+
+[metadata]
+show = true
+
+[trackSelection]
+show = true
+
+[subtitles]
+show = true
+mainFlavor = "captions"
+
+[subtitles.languages]
+german = { lang = "de-DE" }
+english = { lang = "en-US", type = "closed-caption" }
+spanish = { lang = "es" }
+
+
+[subtitles.icons]
+"de-DE" = "DE"
+"en-US" = "EN"
+"es" = "ES"
+
+[thumbnail]
+show = true
