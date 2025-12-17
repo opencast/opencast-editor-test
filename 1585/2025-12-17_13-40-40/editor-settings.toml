@@ -8,17 +8,17 @@
 # ⚠️  Please do not use this for production deployments.
 
 
-# Pick a default event identifier which should be on https://legacy.opencast.org
+# Pick a default event identifier which should be on develop.opencast.org
 id = 'ID-dual-stream-demo'
 
-# Callback to https://legacy.opencast.org
-allowedCallbackPrefixes = ["https://https://legacy.opencast.org"]
-callbackUrl = "https://https://legacy.opencast.org"
+# Callback to develop.opencast.org
+allowedCallbackPrefixes = ["https://develop.opencast.org"]
+callbackUrl = "https://develop.opencast.org"
 callbackSystem = "OPENCAST"
 
 [opencast]
-# Connect to https://legacy.opencast.org and use the default demo user
-url = 'https://https://legacy.opencast.org'
+# Connect to develop.opencast.org and use the default demo user
+url = 'https://develop.opencast.org'
 name = "admin"
 password = "opencast"
 
